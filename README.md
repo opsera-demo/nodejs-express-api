@@ -12,3 +12,6 @@ Example: `docker run -p 80:3000 my-docker-container` will expose the container p
 
 ### Test Commands
 `npm run test` - This command will run an API confirmation test that will interact with the enclosed API at the provided `HOST_PORT`. The default PORT it will target is port `3000`.
+
+### NPM Scripts
+`npm run docker-confirmation` - This command will run a `curl` statement against `localhost:3000/api/javascript` to confirm that the container is up and running. The machine the command is being run from must have `cURL` installed.
