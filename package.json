@@ -10,7 +10,7 @@
     "docker-build": "docker build -t opsera-demos/nodejs-express-api .",
     "docker-run": "docker run -it --rm -d -p 3000:3000 --name demo_express_api opsera-demos/nodejs-express-api",
     "docker-stop": "docker kill demo_express_api",
-    "docker-confirmation": "curl http://0.0.0.0:3000/api/helloWorld | jsonpp"
+    "docker-confirmation": "curl http://0.0.0.0:3000/api/javascript"
   },
   "author": "Derek Ross",
   "license": "MIT",
