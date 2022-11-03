@@ -15,7 +15,7 @@ app.get('/api/javascript', function(req, res){
            language: 'NodeJS', 
            date: dateString,
            hostname: host, 
-           customer: 'webhook-test'
+           customer: 'peter-test'
         });
 });
 
