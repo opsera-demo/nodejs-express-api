@@ -16,7 +16,7 @@ app.get('/api/javascript', function(req, res){
            language: 'NodeJS', 
            date: dateString,
            hostname: host, 
-           customer: 'peter-test'
+           customer: 'peter1-test'
         });
 });
 
